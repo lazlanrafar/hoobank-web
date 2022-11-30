@@ -1,5 +1,12 @@
 import React from "react";
 
-export default function Button() {
-  return <div>Button</div>;
+export default function Button({ styles, text }) {
+  return (
+    <button
+      type="button"
+      className={`${styles} py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none rounded-[10px]`}
+    >
+      {text}
+    </button>
+  );
 }
