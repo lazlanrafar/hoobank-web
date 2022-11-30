@@ -5,7 +5,7 @@ import Button from "./Button";
 export default function CTA() {
   return (
     <section
-      className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
+      className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow animate-up-down`}
     >
       <div className="flex-1 flex flex-col">
         <h2 className={styles.heading2}>Let’s try our service now!</h2>
