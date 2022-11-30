@@ -138,3 +138,18 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+/* animate up down css */
+
+@keyframes animateUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-up-down {
+  animation: animateUp 1s ease-in-out infinite alternate;
+}

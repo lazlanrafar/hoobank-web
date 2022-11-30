@@ -48,7 +48,7 @@ export default function Hero() {
         <img
           src={robot}
           alt="robot"
-          className="w-[100%] h-[100%] relative z-[5]"
+          className="w-[100%] h-[100%] relative z-[5] animate-up-down"
         />
 
         {/* gradient start */}
