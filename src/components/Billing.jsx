@@ -10,6 +10,7 @@ export default function Billing() {
           src={bill}
           alt="billing"
           className="h-full w-full relative z-[5]"
+          loading="lazy"
         />
 
         <div className="absolute z-[3] -left-1/2 top-0 w-1/2 h-1/2 rounded-full white__gradient" />
@@ -28,13 +29,19 @@ export default function Billing() {
 
         <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
           <a href="#" className="mr-3">
-            <img src={apple} alt="apple_store" className="w-[128px] h-[42px]" />
+            <img
+              src={apple}
+              alt="apple_store"
+              className="w-[128px] h-[42px]"
+              loading="lazy"
+            />
           </a>
           <a href="#" className="">
             <img
               src={google}
               alt="google_play_store"
               className="w-[128px] h-[42px]"
+              loading="lazy"
             />
           </a>
         </div>

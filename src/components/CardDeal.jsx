@@ -19,7 +19,7 @@ export default function CardDeal() {
       </div>
 
       <div className={layout.sectionImg}>
-        <img src={card} alt="card" className="w-full h-full" />
+        <img src={card} alt="card" className="w-full h-full" loading="lazy" />
       </div>
     </section>
   );

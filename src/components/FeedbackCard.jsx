@@ -7,6 +7,7 @@ export default function FeedbackCard({ content, name, title, img }) {
       <img
         src={quotes}
         alt="double_quotes"
+        loading="lazy"
         className="w-[42.6px] h-[27.6px] object-contain"
       />
       <p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white my-10">

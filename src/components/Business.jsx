@@ -14,7 +14,12 @@ export default function Business() {
         <div
           className={`w-[50px] ss:w-[64px] h-[50px] ss:h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
         >
-          <img src={icon} alt="icon" className="w-1/2 h-1/2 object-contain" />
+          <img
+            src={icon}
+            alt="icon"
+            className="w-1/2 h-1/2 object-contain"
+            loading="lazy"
+          />
         </div>
         <div className="ml-5 flex-1 font-poppins text-white">
           <h3 className="font-semibold text-lg">{title}</h3>
