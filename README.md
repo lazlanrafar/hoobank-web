@@ -7,6 +7,8 @@ Special Thanks to [Javascript Mastery](https://www.youtube.com/@javascriptmaster
 
 ## Stack
 
-- [Vite](https://vitejs.dev/)
-- [React.js](https://reactjs.org/)
-- [Tailwind.css](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/) - A rapid development tool for modern web projects.
+
+- [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
+
+- [Tailwind.css](https://tailwindcss.com/) - A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
