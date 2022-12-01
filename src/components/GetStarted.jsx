@@ -10,14 +10,14 @@ export default function GetStarted() {
       <div
         className={`${styles.flexCenter} flex-col bg-primary w-full h-full rounded-full`}
       >
-        <div className="flex">
+        <div className="flex items-end">
           <p className="font-poppins font-medium text-lg leading-6 mr-1">
             <span className="text-gradient">Get</span>
           </p>
           <img
             src={arrowUp}
             alt="arrow up"
-            className="w-6 h-6 object-contain"
+            className="w-6 hover:w-7 h-6 hover:h-7 object-contain"
           />
         </div>
         <p className="font-poppins font-medium text-lg leading-6">
